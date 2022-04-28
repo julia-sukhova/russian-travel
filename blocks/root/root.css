@@ -1,5 +1,14 @@
 .root {
     background-color: #2A2C2F;
+    color: #FFFFFF;
+    font-family: 'Inter';
     max-width: 1280px;
-    height: 6875px;
+    min-height: 6875px;
+    margin: 0 auto;
+    -moz-osk-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }

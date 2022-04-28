@@ -1,0 +1,41 @@
+.intro {
+    max-width: 690px;
+    max-height: 429px;
+    margin-left: 148px;
+    margin-right: 442px;
+    padding: 92px 0 0 0;
+    border: 1px red solid;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        margin-left: 48px;
+        margin-right: 286px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        max-width: 720px;
+        max-height: 429px;
+    }
+
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .intro {
+        max-width: 288px;
+        max-height: 754px;
+    }
+
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-top: 64px;
+    }
+}
