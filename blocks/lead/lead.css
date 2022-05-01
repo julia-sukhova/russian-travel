@@ -5,11 +5,11 @@
     padding-top: 56px;
     margin-left: 148px;
     margin-right: 148px;
-    border: 1px red solid;
     max-width: 984px;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
     .lead {
         padding-top: 48px;
         margin-left: 48px;
@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .lead {
         padding-top: 48px;
         margin-left: 0;

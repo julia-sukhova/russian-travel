@@ -1,10 +1,16 @@
 .header__lang-link {
     color: #FFFFFF;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 400;
     text-decoration: none;
     line-height: 117%;
     text-align: right;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 424px) {
@@ -12,5 +18,5 @@
         font-size: 18px;
         line-height: 111%;
     }
-    
+
 }
