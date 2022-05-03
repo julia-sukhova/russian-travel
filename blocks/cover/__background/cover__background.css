@@ -1,7 +1,7 @@
 .cover__background {
     text-decoration: none;
     max-width: 100vw;
-    min-height: 62.5vw;
+    min-height: 740px;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     display: flex;
@@ -25,4 +25,10 @@
 
 .cover__background:hover:before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        min-height: 62.5vw;
+    }
 }
