@@ -8,14 +8,12 @@
     line-height: 122%;
     color: #FFFFFF;
     max-width: 360px;
-    max-height: 66px;
     z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
         max-width: 288px;
-        max-height: 48px;
         font-size: 14px;
         line-height: 114%;
     }
